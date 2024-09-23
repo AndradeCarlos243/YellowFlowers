@@ -12,25 +12,25 @@ sweetAlertScript.onload = () => {
     // Función para mostrar los mensajes de amor secuencialmente
     function showLoveMessages() {
         Swal.fire({
-            title: '❤️',
-            text: 'Eres la persona más especial para mí.',
+            title: 'Anini ❤️',
+            text: 'Probablemente ya no sea el día.',
             icon: 'info',
             showConfirmButton: true,
-            confirmButtonText: 'Siguiente'
+            confirmButtonText: 'Ajá...'
         }).then(() => {
             Swal.fire({
-                title: '❤️',
-                text: 'Gracias por cada momento compartido.',
+                title: 'Mi pupuchurra ❤️',
+                text: 'Y tal vez estés trabajando ahorita.',
                 icon: 'info',
                 showConfirmButton: true,
-                confirmButtonText: 'Siguiente'
+                confirmButtonText: 'Continúa...'
             }).then(() => {
                 Swal.fire({
-                    title: '❤️',
-                    text: 'Te amo con todo mi corazón ❤️.',
+                    title: 'Mi vida!❤️',
+                    text: 'Pero quiero que sepas que te amo con todo el amor de mi vida. ❤️.',
                     icon: 'info',
                     showConfirmButton: true,
-                    confirmButtonText: 'Empezar'
+                    confirmButtonText: '❤️'
                 }).then(() => {
                     // Después de mostrar los mensajes, iniciamos la animación de las flores
                     startAnimation();
